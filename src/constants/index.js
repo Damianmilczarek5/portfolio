@@ -1,7 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/LD.jpg";
+import project2 from "../assets/projects/Portfolio.png";
+
 
 export const HERO_CONTENT = `Hello! I'm Damian, an aspiring full-stack developer based in Stockholm, Sweden. I recently graduated with a degree in process design and media production from Malmö University. I learned a lot about media integration, project management, and SEO, but most importantly, I learned a lot about web development. My journey into the world of programming started in 2021 with the beginning of the university program, and since then, I've become passionate about creating applications and websites. My technical knowledge includes HTML, CSS, JavaScript, PHP, React, Node.js, C#, Python, and databases like MongoDB and MySQL.`;
 
@@ -20,14 +19,14 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Gamified clothing brand",
-    image: null,
+    image: project1,
     description:
       "A partly functional e-commerce website with features like product listing, shopping cart, and user authentication. The user can colect point in different ways to get discounts or other privileges ",
     technologies: ["HTML", "TailwindCSS", "React", "Node.js", "MongoDB"],
   },
   {
     title: "Portfolio Website",
-    image: null,
+    image: project2,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
